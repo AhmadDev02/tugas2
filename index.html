@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css">
+
+</head>
+
+<body>
+    <h1>Create Playlist</h1>
+    <br />
+    <div>
+        <center>
+            <img src="https://bestprofilepictures.com/wp-content/uploads/2020/07/Awesome-Profile-Picture-For-Facebook.jpg"
+                class="img" />
+        </center>
+    </div>
+    <div class="login">
+        <form action="#">
+            <input type="hidden" id="hidden-token">
+            <div>
+                <label>Title:</label>
+                <select name="title" id="title">
+                    <option >Select</option>
+                </select>
+               
+            </div>
+            <div>
+                <label>Artist:</label>
+                <select name="artist" id="artist">
+                    <option >Select</option>
+                </select>
+            </div>
+            <div>
+                <label>Albums:</label>
+                <select name="albums" id="album">
+                    <option >Select</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <button id="get-btn" class="tombol">Get</button>
+            
+                <button id="post-btn" class="tombol">post</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="src/index.js"></script>
+</body>
+
+<!-- <body>
+    <div class="action">
+        <button id="get-btn">Get Data</button>
+        <button id="post-btn">Pots Data</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="src/index.js"></script>
+</body> -->
+
+</html>
